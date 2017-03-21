@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60894E0F1E7A3E4300FB7949 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60894E0E1E7A3E4300FB7949 /* Extensions.swift */; };
+		60894E111E7A490E00FB7949 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60894E101E7A490E00FB7949 /* UIHelper.swift */; };
+		60894E131E80D64300FB7949 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60894E121E80D64300FB7949 /* MenuViewController.swift */; };
 		60BE57241E77A430007E8110 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BE57231E77A430007E8110 /* AppDelegate.swift */; };
 		60BE57261E77A430007E8110 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BE57251E77A430007E8110 /* ViewController.swift */; };
 		60BE57291E77A430007E8110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60BE57271E77A430007E8110 /* Main.storyboard */; };
 		60BE572B1E77A430007E8110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BE572A1E77A430007E8110 /* Assets.xcassets */; };
 		60BE572E1E77A430007E8110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60BE572C1E77A430007E8110 /* LaunchScreen.storyboard */; };
-		60BE57391E77A430007E8110 /* PianoTilesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BE57381E77A430007E8110 /* PianoTilesTests.swift */; };
+		60BE57391E77A430007E8110 /* PianoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BE57381E77A430007E8110 /* PianoTests.swift */; };
 		60BE57441E77A430007E8110 /* PianoTilesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BE57431E77A430007E8110 /* PianoTilesUITests.swift */; };
+		60BE57531E77A64C007E8110 /* Piano.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BE57521E77A64C007E8110 /* Piano.swift */; };
+		60BE57551E77A6C7007E8110 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BE57541E77A6C7007E8110 /* Tile.swift */; };
+		60BE57571E77C11C007E8110 /* TileTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BE57561E77C11C007E8110 /* TileTest.swift */; };
+		60BE575C1E77C443007E8110 /* PianoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BE575B1E77C443007E8110 /* PianoHelper.swift */; };
+		60BE575E1E77DF48007E8110 /* PianoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BE575D1E77DF48007E8110 /* PianoViewController.swift */; };
+		60BE57621E77DFBF007E8110 /* TileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BE57611E77DFBF007E8110 /* TileCollectionViewCell.swift */; };
+		60BE57641E77E210007E8110 /* GameHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BE57631E77E210007E8110 /* GameHelper.swift */; };
+		60BE57661E77F04E007E8110 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BE57651E77F04E007E8110 /* ViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60894E0E1E7A3E4300FB7949 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Extensions/Extensions.swift; sourceTree = "<group>"; };
+		60894E101E7A490E00FB7949 /* UIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIHelper.swift; path = Helpers/UIHelper.swift; sourceTree = "<group>"; };
+		60894E121E80D64300FB7949 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = ViewControllers/MenuViewController.swift; sourceTree = "<group>"; };
 		60BE57201E77A430007E8110 /* PianoTiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PianoTiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BE57231E77A430007E8110 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60BE57251E77A430007E8110 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,11 +56,19 @@
 		60BE572D1E77A430007E8110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60BE572F1E77A430007E8110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60BE57341E77A430007E8110 /* PianoTilesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PianoTilesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		60BE57381E77A430007E8110 /* PianoTilesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoTilesTests.swift; sourceTree = "<group>"; };
+		60BE57381E77A430007E8110 /* PianoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoTests.swift; sourceTree = "<group>"; };
 		60BE573A1E77A430007E8110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60BE573F1E77A430007E8110 /* PianoTilesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PianoTilesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60BE57431E77A430007E8110 /* PianoTilesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoTilesUITests.swift; sourceTree = "<group>"; };
 		60BE57451E77A430007E8110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60BE57521E77A64C007E8110 /* Piano.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Piano.swift; path = Models/Piano.swift; sourceTree = "<group>"; };
+		60BE57541E77A6C7007E8110 /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tile.swift; path = Models/Tile.swift; sourceTree = "<group>"; };
+		60BE57561E77C11C007E8110 /* TileTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileTest.swift; sourceTree = "<group>"; };
+		60BE575B1E77C443007E8110 /* PianoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PianoHelper.swift; path = Helpers/PianoHelper.swift; sourceTree = "<group>"; };
+		60BE575D1E77DF48007E8110 /* PianoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PianoViewController.swift; path = ViewControllers/PianoViewController.swift; sourceTree = "<group>"; };
+		60BE57611E77DFBF007E8110 /* TileCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TileCollectionViewCell.swift; path = CollectionViewCells/TileCollectionViewCell.swift; sourceTree = "<group>"; };
+		60BE57631E77E210007E8110 /* GameHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameHelper.swift; path = Helpers/GameHelper.swift; sourceTree = "<group>"; };
+		60BE57651E77F04E007E8110 /* ViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60894E0D1E7A3E2A00FB7949 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				60894E0E1E7A3E4300FB7949 /* Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		60BE57171E77A430007E8110 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +127,11 @@
 		60BE57221E77A430007E8110 /* PianoTiles */ = {
 			isa = PBXGroup;
 			children = (
+				60894E0D1E7A3E2A00FB7949 /* Extensions */,
+				60BE57601E77DFA1007E8110 /* CollectionViewCells */,
+				60BE575F1E77DF4D007E8110 /* ViewControllers */,
+				60BE57581E77C3D0007E8110 /* Helpers */,
+				60BE57511E77A634007E8110 /* Models */,
 				60BE57231E77A430007E8110 /* AppDelegate.swift */,
 				60BE57251E77A430007E8110 /* ViewController.swift */,
 				60BE57271E77A430007E8110 /* Main.storyboard */,
@@ -110,7 +145,9 @@
 		60BE57371E77A430007E8110 /* PianoTilesTests */ = {
 			isa = PBXGroup;
 			children = (
-				60BE57381E77A430007E8110 /* PianoTilesTests.swift */,
+				60BE57381E77A430007E8110 /* PianoTests.swift */,
+				60BE57561E77C11C007E8110 /* TileTest.swift */,
+				60BE57651E77F04E007E8110 /* ViewControllerTests.swift */,
 				60BE573A1E77A430007E8110 /* Info.plist */,
 			);
 			path = PianoTilesTests;
@@ -123,6 +160,42 @@
 				60BE57451E77A430007E8110 /* Info.plist */,
 			);
 			path = PianoTilesUITests;
+			sourceTree = "<group>";
+		};
+		60BE57511E77A634007E8110 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				60BE57521E77A64C007E8110 /* Piano.swift */,
+				60BE57541E77A6C7007E8110 /* Tile.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		60BE57581E77C3D0007E8110 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				60BE575B1E77C443007E8110 /* PianoHelper.swift */,
+				60BE57631E77E210007E8110 /* GameHelper.swift */,
+				60894E101E7A490E00FB7949 /* UIHelper.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		60BE575F1E77DF4D007E8110 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				60BE575D1E77DF48007E8110 /* PianoViewController.swift */,
+				60894E121E80D64300FB7949 /* MenuViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		60BE57601E77DFA1007E8110 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				60BE57611E77DFBF007E8110 /* TileCollectionViewCell.swift */,
+			);
+			name = CollectionViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,8 +266,8 @@
 				TargetAttributes = {
 					60BE571F1E77A430007E8110 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = W3RCCUG568;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = 8WR9DN7HHX;
+						ProvisioningStyle = Manual;
 					};
 					60BE57331E77A430007E8110 = {
 						CreatedOnToolsVersion = 8.3;
@@ -263,7 +336,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				60BE57261E77A430007E8110 /* ViewController.swift in Sources */,
+				60894E0F1E7A3E4300FB7949 /* Extensions.swift in Sources */,
+				60BE57621E77DFBF007E8110 /* TileCollectionViewCell.swift in Sources */,
+				60894E111E7A490E00FB7949 /* UIHelper.swift in Sources */,
+				60894E131E80D64300FB7949 /* MenuViewController.swift in Sources */,
+				60BE575C1E77C443007E8110 /* PianoHelper.swift in Sources */,
 				60BE57241E77A430007E8110 /* AppDelegate.swift in Sources */,
+				60BE57531E77A64C007E8110 /* Piano.swift in Sources */,
+				60BE57641E77E210007E8110 /* GameHelper.swift in Sources */,
+				60BE575E1E77DF48007E8110 /* PianoViewController.swift in Sources */,
+				60BE57551E77A6C7007E8110 /* Tile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +353,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60BE57391E77A430007E8110 /* PianoTilesTests.swift in Sources */,
+				60BE57661E77F04E007E8110 /* ViewControllerTests.swift in Sources */,
+				60BE57391E77A430007E8110 /* PianoTests.swift in Sources */,
+				60BE57571E77C11C007E8110 /* TileTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,11 +499,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = W3RCCUG568;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 8WR9DN7HHX;
 				INFOPLIST_FILE = PianoTiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ad.PianoTiles;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5db1826e-62b5-4c55-9ca6-2edf50004f1e";
+				PROVISIONING_PROFILE_SPECIFIER = "XC: *";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -428,11 +516,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = W3RCCUG568;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 8WR9DN7HHX;
 				INFOPLIST_FILE = PianoTiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ad.PianoTiles;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5db1826e-62b5-4c55-9ca6-2edf50004f1e";
+				PROVISIONING_PROFILE_SPECIFIER = "XC: *";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -514,6 +606,7 @@
 				60BE574A1E77A430007E8110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60BE574B1E77A430007E8110 /* Build configuration list for PBXNativeTarget "PianoTilesTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +615,7 @@
 				60BE574D1E77A430007E8110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60BE574E1E77A430007E8110 /* Build configuration list for PBXNativeTarget "PianoTilesUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +624,7 @@
 				60BE57501E77A430007E8110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
